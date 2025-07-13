@@ -1,0 +1,36 @@
+
+/*.button {
+    background-color: var(--black);
+    color: var(--primary-green);
+    font-family: "Poppins", sans-serif;
+    border: none;
+    padding: 0.6rem 1.2rem;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+  }*/
+
+  .button {
+  background-color: #121212; /* Very dark gray, not pure black */
+  color: #34C94B; /* QTify green */
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
+  padding: 10px 24px;
+  border: none;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;  
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 0 2px var(--color-primary); /* green outline like the image */
+  margin-right: 40px;
+}
+
+.button:hover {
+  opacity: 0.9;
+}
+
+
+  
