@@ -11,10 +11,10 @@ import LogoImage from "../../assets/logo.png";
   return <img src={LogoImage} alt="logo" width={67} className={className} />;
 }*/
 
-export default function Logo() {
+export default function Logo({ className = "" }) {
   return (
     <img
-      className={styles.logo}
+      className={`${styles.logo} ${className}`}
       src={LogoImage}
       alt="logo"
       width={67}
