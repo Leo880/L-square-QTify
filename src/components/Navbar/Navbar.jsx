@@ -9,7 +9,8 @@ function Navbar({ searchData }) {
   return (
     <nav className={styles.navbar}>
       
-        <Logo />
+        <Logo className={styles.logo} />
+
       
       <Search
         placeholder="Search a song of your choice"
