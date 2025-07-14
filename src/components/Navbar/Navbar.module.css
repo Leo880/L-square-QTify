@@ -12,7 +12,8 @@
   background-color: var(--color-primary);
   height: 74px;
   width: 100%;
-  padding: 0 32px;
+  padding-left: 20px; 
+  padding-right: 32px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -21,5 +22,6 @@
 
 .logo {
   margin-left: 20px;
+  align-self: center;
 }
 
