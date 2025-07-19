@@ -2,4 +2,6 @@
   display: block;
   height: 40px; /* optional for vertical centering */
   object-fit: contain;
+  margin-left: 10px;
+  align-self: center;
 }
