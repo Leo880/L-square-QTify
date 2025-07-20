@@ -53,7 +53,7 @@ export default function Logo({ className = "" }) {
         src={LogoImage}
         alt="logo"
         width={67}
-        height={40}
+        height={36}
       />
     </div>
   );

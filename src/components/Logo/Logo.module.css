@@ -42,11 +42,11 @@
   margin-left: 20px;
 }
 
-.logo {
-  width: 67px;
-  height: 40px;
-  object-fit: contain;
-  display: block;
-}
-
+   .logo {
+     width: 67px;
+     height: 36px; 
+     object-fit: contain;
+     display: block;
+   }
+   
 
