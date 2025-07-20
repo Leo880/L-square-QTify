@@ -36,17 +36,18 @@
 
 .logoWrapper {
   display: flex;
-  align-items: center;
+  align-items: center; /* Center the logo vertically */
   justify-content: flex-start;
-  height: 74px; /* Match navbar */
-  margin-left: 20px;
+  height: 74px; /* Match navbar height */
+  margin-left: 20px; /* Space to the left */
+  margin-top: 0; /* Adjust if needed */
 }
 
-   .logo {
-     width: 67px;
-     height: 36px; 
-     object-fit: contain;
-     display: block;
-   }
+.logo {
+  width: 67px;
+  height: 36px; /* Match the actual image height */
+  object-fit: contain;
+  display: block;
+}
    
 

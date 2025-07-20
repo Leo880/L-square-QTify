@@ -22,20 +22,28 @@ function App() {
   );
 }*/
 //import React from 'react';
+
 import Navbar from './components/Navbar/Navbar';
 import Hero from './components/Hero/Hero';
+import Section from './components/Section/Section';
 
 function App() {
   return (
     <div>
       <Navbar />
       <Hero />
+      <Section
+        title="Top Albums"
+        fetchUrl="https://qtify-backend-labs.crio.do/albums/top"
+        isGrid={true}
+      />
+      <Section
+        title="New Albums"
+        fetchUrl="https://qtify-backend-labs.crio.do/albums/new"
+        isGrid={false}
+      />
     </div>
   );
 }
-
-
-
-
 
 export default App;
