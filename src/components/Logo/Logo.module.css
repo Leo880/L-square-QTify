@@ -1,7 +1,20 @@
-.logo {  
+/*.logo {  
   display: block;
-  height: 40px; /* optional for vertical centering */
+  height: 40px; 
   object-fit: contain;
   margin-left: 20px;
   align-self: center;
+}*/
+
+.logo {
+  height: 40px;
+  object-fit: contain;
+  margin-left: 20px;
+
+  /* these 2 help with centering if inside flex container */
+  display: flex;
+  align-items: center;
+
+  /* optional: center within the logo box if needed */
+  justify-content: center;
 }
