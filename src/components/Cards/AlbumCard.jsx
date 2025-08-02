@@ -15,10 +15,14 @@ export default function Card() {
       </div>
     </div>
   );
-}*/
+}
+*/
+
 
 //import React from "react";
-import Chip from "@mui/material/Chip";
+
+
+/*import Chip from "@mui/material/Chip";
 import "./Card.css";
 
 function Card({ image, title, follows }) {
@@ -44,4 +48,46 @@ function Card({ image, title, follows }) {
 }
 
 export default Card;
+*/
+
+
+//import React from 'react';
+import { Card, CardMedia, CardContent, Typography, Chip } from '@mui/material';
+import './AlbumCard.module.css';
+
+function AlbumCard({ image, title, follows, likes, isSong = false }) {
+  return (
+    <Card sx={{ maxWidth: 200, width: '100%', boxShadow: 3 }}>
+      <CardMedia
+        component="img"
+        sx={{ height: 120, objectFit: 'cover' }}
+        image={image}
+        alt={title}
+      />
+      <CardContent sx={{ padding: '8px', height: 60 }}>
+        <Typography variant="subtitle1" noWrap>
+          {title}
+        </Typography>
+        <Chip
+          label={isSong ? `${likes} Likes` : `${follows} Follows`}
+          size="small"
+          className="album-chip"
+        />
+      </CardContent>
+    </Card>
+  );
+}
+
+export default AlbumCard;
+
+
+
+
+
+
+
+
+
+
+
 

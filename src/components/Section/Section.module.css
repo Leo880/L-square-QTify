@@ -1,4 +1,4 @@
-/*.section {
+.section {
   padding: 20px;
 }
 
@@ -23,8 +23,9 @@
   border-radius: 4px;
   cursor: pointer;
 }
-*/
 
+
+/*
 .section {
   margin: 24px 0;
   color: white;
@@ -55,3 +56,4 @@
 .section-content::-webkit-scrollbar {
   display: none;
 }
+*/

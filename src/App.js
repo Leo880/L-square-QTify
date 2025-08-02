@@ -23,6 +23,7 @@ function App() {
 }*/
 //import React from 'react';
 
+/*
 import Navbar from './components/Navbar/Navbar';
 import Hero from './components/Hero/Hero';
 import Section from './components/Section/Section';
@@ -42,6 +43,27 @@ function App() {
         fetchUrl="https://qtify-backend-labs.crio.do/albums/new"
         isGrid={false}
       />
+    </div>
+  );
+}
+
+export default App;
+*/
+
+
+import Navbar from '.components/Navbar/Navbar';
+import HeroSection from '/components/Hero/Hero';
+import Section from './components/Section/Section';
+import './App.css';
+
+function App() {
+  return (
+    <div>
+      <Navbar />
+      <HeroSection />
+      <Section title="Top Albums" apiUrl="https://qtify-backend-labs.crio.do/albums/top" isSong={false} />
+      <Section title="New Albums" apiUrl="https://qtify-backend-labs.crio.do/albums/new" isSong={false}/>
+      <Section title="Songs" apiUrl="https://qtify-backend-labs.crio.do/songs" isSong={true} />
     </div>
   );
 }
